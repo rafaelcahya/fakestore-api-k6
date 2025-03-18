@@ -1,6 +1,6 @@
 import http from "k6/http";
 import { check, group } from "k6";
-import { BASE_URL } from '../../utils/config.js';
+import { BASE_URL, PRODUCT_URL, PRODUCT_ID, PRODUCT_ID_NOT_FOUND } from '../../utils/config.js';
 
 export const options = {
     vus: 1,
