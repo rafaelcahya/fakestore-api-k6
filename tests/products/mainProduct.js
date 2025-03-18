@@ -1,8 +1,8 @@
-import getProduct from '../users/getProduct.js'
-import getProducts from '../users/getProducts.js'
-import addProduct from '../users/addProduct.js'
-import updateProduct from '../users/updateProduct.js'
-import deleteProduct from '../users/deleteProduct.js'
+import getProduct from '../products/getProduct.js'
+import getProducts from '../products/getProducts.js'
+import addProduct from '../products/addProduct.js'
+import updateProduct from '../products/updateProduct.js'
+import deleteProduct from '../products/deleteProduct.js'
 
 export const options = {
     vus: 1,

@@ -19,7 +19,7 @@ export const options = {
         'checks{group:::Update product - product not found}':["rate>0.95"],
     },
 };
-
+``
 export default function () {
     group('Delete product', function (){
         let res = http.del(`${BASE_URL}/${CART_URL}/${CART_ID}`);

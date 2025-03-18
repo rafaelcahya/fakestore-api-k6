@@ -1,8 +1,8 @@
-import getCart from '../users/getCart.js'
-import getCarts from '../users/getCarts.js'
-import addCart from '../users/addCart.js'
-import updateCart from '../users/updateCart.js'
-import deleteCart from '../users/deleteCart.js'
+import getCart from '../carts/getCart.js'
+import getCarts from '../carts/getCarts.js'
+import addCart from '../carts/addCart.js'
+import updateCart from '../carts/updateCart.js'
+import deleteCart from '../carts/deleteCart.js'
 
 export const options = {
     vus: 1,
